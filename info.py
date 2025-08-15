@@ -34,7 +34,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Dpcinema:Dpcinema@atlascluster.mcfyzy4.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Dpcinema")
-FILE_DB_URL = environ.get("FILE_DB_URL", DATABASE_URL)
+FILE_DB_URL = environ.get("FILE_DB_URL", https://t.me/+hyHiss3x3Y82NTc9)
 FILE_DB_NAME = environ.get("FILE_DB_NAME", DPcinema)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'https://t.me/DP_CINEMA_OFFICIAL')
 
@@ -44,7 +44,7 @@ START_MESSAGE = environ.get('START_MESSAGE', script.START_TXT)
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", script.BUTTON_LOCK_TEXT)
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', script.FORCE_SUB_TEXT)
 
-WELCOM_PIC = environ.get("WELCOM_PIC", "")
+WELCOM_PIC = environ.get("WELCOM_PIC", "https://envs.sh/0vn.jpg/IMG20250726876.jpg")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", script.WELCOM_TEXT)
 PMFILTER = is_enabled(environ.get('PMFILTER', "True"), True)
 G_FILTER = is_enabled(environ.get("G_FILTER", "True"), True)
